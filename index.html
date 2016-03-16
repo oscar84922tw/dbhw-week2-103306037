@@ -4,11 +4,20 @@
     <meta charset="utf-8">
     <title>Timer</title>
     <link rel="stylesheet" type="text/css" href="css/initial.css">
+    <link rel="stylesheet" type="text/css" href="css/water.css">
     <script type="text/javascript" src="js/initial.js"></script>
+
   </head>
   <body>
+    <!-- water -->
+    <div id='container'>
+      <canvas id="canvas">
+      </canvas>
+    </div>
+    <script type="text/javascript" src="js/water.js"></script>
+
     <div class="timer-wrapper">
-      <span id="num">00</span>
+      <div id="num">00</div>
       <ul>
         <li></li>
         <li></li>
@@ -17,6 +26,7 @@
         <li></li>
       </ul>
     </div>
+
     <button id="01" class="button1" onclick="pause()">START</button>
     <button id="01" class="button2" onclick="reset()">RESET</button>
   </body>

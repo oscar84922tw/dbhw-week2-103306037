@@ -2,7 +2,7 @@
 * @Author: oscar
 * @Date:   2016-03-16 01:34:22
 * @Last Modified by:   oscar84922tw
-* @Last Modified time: 2016-03-16 02:04:34
+* @Last Modified time: 2016-03-16 19:54:25
 */
 .timer-wrapper {
 position: absolute;
@@ -10,7 +10,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background-color: #000;
+/*background-color: #000;*/
 color: #fff;
 }
 .timer-wrapper > ul {
@@ -110,6 +110,7 @@ z-index: 200;
 margin-left: -4.5%;
 margin-top: -5%;
 font-size: 110px;
+color: #0066CC;
 }
 /*-------------------------------------------
 Animations
@@ -200,4 +201,11 @@ display: inline-block;
 font-size: 20px;
 margin: 5px 3px;
 cursor: pointer;
+}
+
+/*title*/
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
 }
